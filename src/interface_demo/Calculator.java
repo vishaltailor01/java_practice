@@ -1,12 +1,12 @@
 package interface_demo;
 
 
-public interface Calculator {
-    public void add(int a ,int b);
-    public void sub(int x, int y);
+interface Calculator {
+    int a = 10; // by default variable is static and final
 
-    public static void main(String[] args) {
-    }
+     void add(int a, int b);// interface contains only abstract method
+
+     void sub(int x, int y); //interface contains only abstract method
 
 
 }

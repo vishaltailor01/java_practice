@@ -8,13 +8,13 @@ public class MethodeOverloading {
     public void add(int a,int b){
 
     }
-    // same methode name with diffrent number of  parameters
+    // same methode name with different number of  parameters
     public void add (int a,int b, int c){
-        // this method call overloded method
-        // same methode name with diffrent number of  parameters
+        // this method call overloaded method
+        // same methode name with different number of  parameters
     }
     public void add(String a, String b){
-        // overloaded methode with diffrent type of parameters
+        // overloaded methode with different type of parameters
 
 
     }
