@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Array_Vs_Arraylist {
-    public static void main(String[] args) {
+    public static <list> void main(String[] args) {
 
         // static list
         int i[]=new int[4];
@@ -49,6 +49,7 @@ public class Array_Vs_Arraylist {
         ArrayList<Double> numbers1 = new ArrayList<Double>(Arrays.asList(10.00,20.20,30.00,40.20,50.60,12.00));
         System.out.println(numbers1);
         System.out.println(numbers1.size());
+
 
 
     }

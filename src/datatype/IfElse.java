@@ -6,7 +6,7 @@ public class IfElse {
         int a = 10;
         int b = 20;
 
-        if (a>b){// if statement only execute when condition is true
+        if (a<b){// if statement only execute when condition is true
             System.out.println("If Statement true body");
         }
         else{ // else statement only execute when if condition is false
@@ -16,4 +16,8 @@ public class IfElse {
 
 
     }
-}
+
+
+
+    }
+

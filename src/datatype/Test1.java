@@ -51,7 +51,7 @@ public class Test1 {
         return result;
 
     }
-
+// return string type
     public String name() {
         String a = "vishal";
         return a; // must add a return

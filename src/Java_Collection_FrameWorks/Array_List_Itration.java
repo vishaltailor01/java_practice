@@ -23,6 +23,7 @@ public class Array_List_Itration {
             System.out.println(s);
         }
         System.out.println("====================");
+
         // jdk 8 - streams with lambda:
         studentlist.stream().forEach(ele -> System.out.println(ele));
         System.out.println("====================");
